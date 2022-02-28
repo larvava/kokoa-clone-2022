@@ -24,6 +24,11 @@
     color: rgba(0,0,0,0.5);
     font-weight: 500;
 }
+
+.friends-screen__favorites {
+    padding-bottom: 50px;
+}
+
 #splash-screen {
     background-color: var(--yellow);
     position: absolute;
