@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends page</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+      </div>
+      <div class="status-bar__column">
+        <span>12:25</span>
+      </div>
+      <div class="status-bar__column">
+        <span>13%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <hi class="screen-header__title">Friends</hi>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <a href="setting.html">
+          <span><i class="fas fa-cog fa-lg"></i></span>
+        </a>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> Friends' Names Display <i class="fas fa-chevron-right fa-sm"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="images/chuck.png" class="user-component__avatar user-component__avatar--xl" />
+          <div class="user-component__text">
+           <h4 class="user-component__title">Chuck</h4>
+           <!--h6 class="user-component__subtitle">this text whatever</h6 > -->
+          </div>
+       </div>
+        <div class="user-component__column"></div>
+      </div>
+      <section class="friends-screen__birthday">
+        <div class="friends-screen__division">
+          <div class="friends-screen__division-header">
+            <span>Friends with Birthdays</span>
+            <i class="fas fa-chevron-up fa-sm"></i>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column user-component__profile">
+              <i class="fa fa-birthday-cake user-component__avatar user-component__avatar--sm"></i>
+              <div class="user-component__text">
+                <h4 class="user-component__title--not-bold">View more birthdays</h4>
+              </div>
+            </div>
+            <div class="user-component__more-row-num">
+              <div>
+                <span>2</span>
+                <i class="fas fa-chevron-right fa-sm"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="friends-screen__favorites">
+        <div class="friends-screen__division">
+          <div class="friends-screen__division-header">
+            <span>Favorites</span>
+            <i class="fas fa-chevron-up fa-sm"></i>
+          </div>
+          
+          <div class="user-component">
+            <div class="user-component__column">
+              <img src="images/clara.png" class="user-component__avatar user-component__avatar--sm" />
+              <div class="user-component__text">
+                <h4 class="user-component__title--not-bold">Clara</h4>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img src="images/crabsformer.png" class="user-component__avatar user-component__avatar--sm" />
+              <div class="user-component__text">
+                <h4 class="user-component__title--not-bold">Crabsformer</h4>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img src="images/mango.png" class="user-component__avatar user-component__avatar--sm" />
+              <div class="user-component__text">
+                <h4 class="user-component__title--not-bold">Mango</h4>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img src="images/red.png" class="user-component__avatar user-component__avatar--sm" />
+              <div class="user-component__text">
+                <h4 class="user-component__title--not-bold">Red</h4>
+              </div>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img src="images/yellow.png" class="user-component__avatar user-component__avatar--sm" />
+              <div class="user-component__text">
+                <h4 class="user-component__title--not-bold">Yellow</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+              <a class="nav__link" href="friends.html">
+                <i class="fas fa-user fa-lg"></i>
+              </a>
+            </li>
+            <li class="nav__btn">
+              <a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">1</span>
+                <i class="far fa-comment fa-lg"></i>
+              </a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-lg"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-lg"></i></i></a></li>
+        </ul>
+    </nav>   
+    <div id="splash-screen">
+      <i class="fas fa-comment fa-lg"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+
+
+    <script
+      src="https://kit.fontawesome.com/dd16014fc4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

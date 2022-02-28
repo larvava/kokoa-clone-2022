@@ -1,2 +1,3 @@
-# kokoa-clone-2022
-Nomad coder html/css challenge
+# Kokoa Clone 2022 (Nomad Coder)
+
+### Let's make Larva Talk with 니꼬!
